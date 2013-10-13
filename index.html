@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>InstaLax - Panel Based Parallax Framework</title>
+        <meta name="description" content="Panel Based Parallax Framework">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="instalax.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+        <script src="instalax.js"></script>
+    </head>
+    <body>
+        <div id="indicator"></div>
+        <div id="scroller"></div>
+        <section id="instalax" data-topoffset="0">
+            <div class="slide one">
+                <div class="content" data-width="1000" data-start="center" data-stop="top" data-fade="out">
+                    <h1>InstaLax</h1>
+                    <h3>Panel Based Parallax Framework</h3>
+                    <p>Scroll Down And Check It Out</p>
+                    <h3>&darr;</h3>
+                </div>
+            </div>
+            <div class="slide two" data-fade="true" data-backgroundscroll=".85">
+                <div class="content" data-width="451" data-start="center" data-stop="bottom" data-fade="out">
+                    <h2>Panels slide in, content slides out</h2>
+<pre class="prettyprint">
+&lt;div class="slide two" data-fade="true"\&gt;
+    &lt;div class="bg"&gt;
+        &lt;img src="images/slide2.jpg"/&gt;
+    &lt;/div&gt;
+    &lt;div class="content" data-width="451" data-start="center" data-stop="bottom" data-fade="out"&gt;
+        &lt;h2&gt;Panels slide in, content slides out&lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+            </div>
+            <div class="slide three" data-fade="true" data-noslide="true">
+                <div class="content" data-width="451" data-start="top" data-stop="center">
+                    <h2>Panels don't need to slide</h2>
+<pre class="prettyprint">
+&lt;div class=&quot;slide three&quot; data-fade=&quot;true&quot; data-noslide=&quot;true&quot;&gt;
+    &lt;div class=&quot;bg&quot;&gt;
+        &lt;img src=&quot;images/slide3.jpg&quot;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot; data-width=&quot;451&quot; data-start=&quot;top&quot; data-stop=&quot;center&quot;&gt;
+        &lt;h2&gt;Panels don&#39;t need to slide&lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>          </div>
+            </div>
+            <div class="slide four" data-backgroundscroll=".5">
+                <div class="content" data-width="451" data-start="center" data-stop="center">
+                    <h2>And niether does content</h2>
+<pre class="prettyprint">
+&lt;div class=&quot;slide four&quot;&gt;
+    &lt;div class=&quot;bg&quot;&gt;
+        &lt;img src=&quot;images/slide4.jpg&quot;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot; data-width=&quot;451&quot; data-start=&quot;center&quot; data-stop=&quot;center&quot;&gt;
+        &lt;h2&gt;And niether does content&lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+            </div>
+            <div class="slide five" data-fade="true" data-noslide="true">
+                <div class="content" data-width="451" data-start="bottom" data-stop="top">
+                    <h2>Slide from below to above</h2>
+<pre class="prettyprint">
+&lt;div class=&quot;slide five&quot; data-fade=&quot;true&quot; data-noslide=&quot;true&quot;&gt;
+    &lt;div class=&quot;bg&quot;&gt;
+        &lt;img src=&quot;images/slide5.jpg&quot;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot; data-width=&quot;451&quot; data-start=&quot;bottom&quot; data-stop=&quot;top&quot;&gt;
+        &lt;h2&gt;Slide from below to above&lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+            </div>
+            <div class="slide six">
+                <div class="content" data-width="451" data-start="top" data-stop="bottom">
+                   <h2>Slide from above to below</h2>
+<pre class="prettyprint">
+&lt;div class=&quot;slide six&quot;&gt;
+    &lt;div class=&quot;bg&quot;&gt;
+        &lt;img src=&quot;images/slide6.jpg&quot;/&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot; data-width=&quot;451&quot; data-start=&quot;top&quot; data-stop=&quot;bottom&quot;&gt;
+       &lt;h2&gt;Slide from above to below&lt;/h2&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+            </div>
+            <div class="slide seven" data-backgroundscroll=".75">
+                <div class="content" id="gocrazy" data-width="451" data-start="top" data-stop="center">
+                    <div class="crazy">
+                    <h2>So go crazy</h2>
+                    <h4><a href="http://github.com/kdubbicles/InstaLax">Download Now</a></h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

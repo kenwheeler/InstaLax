@@ -1,0 +1,32 @@
+section#parallax {
+	position: fixed;
+	top: 0;
+	left:0px;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	visibility: visible;
+}
+div.slide {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	display: block;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	visibility: visible;
+}
+div.slide img {
+	display: block;
+	-webkit-backface-visibility: hidden;
+}
+div.slide div.content {
+	margin: 0px auto;
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+div#scroller {
+	width: 1px;
+	position: relative;
+}
